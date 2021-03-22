@@ -1,1 +1,7 @@
 nano /etc/netplan/01-network-manager-all.yaml  -->  never update this file until you are sure about it
+
+--------------------------------
+$ sudo apt-get install arp-scan  -->  to install arp-scan
+$ arp-scan -I eth0 -l | grep 192.168  -->  to view what the devices are connected to same network (i.e router)
+
+--------------------------------
