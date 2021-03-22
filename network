@@ -1,0 +1,1 @@
+nano /etc/netplan/01-network-manager-all.yaml  -->  never update this file until you are sure about it
