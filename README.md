@@ -5,7 +5,9 @@ Linux Commands
 chmod +x run.sh  -- to make it executable script
 
 =================================
+
 install net-tools and ssh setup in ubuntu
+
 =================================
 
 sudo apt-get install net-tools -y
