@@ -20,4 +20,8 @@ systemctl enable ssh --> to start service when machine starts
 
 systemctl start ssh --> to start the service
 
+sudo ufw allow 22 --> to allow 22 port in firewall
+
+sudo ufw allow ssh --> to allow ssh in firewall
+
 =================================
