@@ -25,3 +25,8 @@ sudo ufw allow 22 --> to allow 22 port in firewall
 sudo ufw allow ssh --> to allow ssh in firewall
 
 =================================
+to view users in linux
+
+cat /etc/passwd
+
+=================================
