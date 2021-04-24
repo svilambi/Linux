@@ -1,0 +1,11 @@
+Samba
+
+this is used to share the folder from ubuntu to other machines. for example to share the logs of one application to view in windows machine
+
+apt install samba  --> install samba
+
+net usershare add test /home/ubuntu/test "test" everyone:R guest_ok=y  --> to share the folder test in ubuntu
+
+to access in windows \\<machine-ip>\test
+
+ref : https://www.answertopia.com/ubuntu/sharing-files-between-ubuntu-and-windows-systems-with-samba/
