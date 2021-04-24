@@ -1,0 +1,3 @@
+Nginx
+
+sudo apt install nginx  --> runs on default port 80
