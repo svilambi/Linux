@@ -1,3 +1,31 @@
 Nginx
 
 sudo apt install nginx  --> runs on default port 80
+
+================
+
+to update the location of the default page
+
+check the location of the default nginx page
+grep "root" -R /etc/nginx/sites-enabled
+
+Output
+/etc/nginx/sites-enabled/default:       root /var/www/html;
+/etc/nginx/sites-enabled/default:       # deny access to .htaccess files, if Apache's document root
+/etc/nginx/sites-enabled/default:#      root /var/www/example.com;
+
+
+update below files
+
+sudo rsync -av /var/www/html /<your-location>
+
+
+sudo nano /etc/nginx/sites-enabled/default
+
+in edit file
+root /<your-location>;
+
+restart nginx service
+systemctl restart nginx
+
+================
