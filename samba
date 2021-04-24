@@ -9,3 +9,11 @@ net usershare add test /home/ubuntu/test "test" everyone:R guest_ok=y  --> to sh
 to access in windows \\<machine-ip>\test
 
 ref : https://www.answertopia.com/ubuntu/sharing-files-between-ubuntu-and-windows-systems-with-samba/
+
+firewall exceptions if sharing is not done then add below exceptions
+
+
+sudo ufw allow 139/tcp
+sudo ufw allow 445/tcp
+sudo ufw allow 138/udp
+sudo ufw allow 137/udp
