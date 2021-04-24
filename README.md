@@ -31,9 +31,3 @@ to view users in linux
 cat /etc/passwd
 
 =================================
-
-Install nginx in ubuntu
-
-sudo apt install nginx -y --> to runs on default port 80
-
-=================================
