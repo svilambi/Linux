@@ -1,6 +1,7 @@
 # Linux
 Linux Commands
 
+nano /etc/apt/sources.list --> to check the source list in ubuntu
 
 chmod +x run.sh  -- to make it executable script
 
